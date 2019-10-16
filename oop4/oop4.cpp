@@ -29,7 +29,7 @@ void task1()
 	float* pfloatVar = &floatVar;
 	double* pdoubleVar = &doubleVar;
 
-	printf("%p\t%d\n", pintVar, *pintVar);
+	printf("pintVar, *pintVar:%p\t%d\n", pintVar, *pintVar);
 	printf("%p\t%c\n", pcharVar, *pcharVar);
 	printf("%p\t%c\n", pwcharVar, *pwcharVar);
 	printf("%p\t%s\n", pboolVar, *pboolVar ? "true" : "false");
